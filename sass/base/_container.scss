@@ -1,0 +1,98 @@
+.container {
+  width: 100%;
+  padding: 0 15px;
+  max-width: 480px;
+  margin: 0 auto;
+
+  .header & {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .hero & {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lorem-ipsum & {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+
+  .team & {
+    background: #f5f4fa;
+    padding-bottom: 60px;
+  }
+
+  .clients & {
+    padding-bottom: 60px;
+  }
+
+  .footer & {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+
+    .header & {
+      display: flex;
+      align-items: center;
+    }
+
+    .hero & {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lorem-ipsum & {
+      margin-bottom: 60px;
+    }
+
+    .team & {
+      padding-bottom: 60px;
+    }
+
+    .footer & {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-bottom: 60px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+
+
+    .about & {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .portfolio-filters & {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 50px;
+      padding-top: 94px;
+    }
+
+     .team & {
+      padding-bottom: 60px;
+    }
+
+
+  }
+}

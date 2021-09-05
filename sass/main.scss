@@ -1,0 +1,26 @@
+@import "./utils/is-hidden";
+
+@import "./base/common";
+@import "./base/container";
+@import "./base/section";
+@import "./utils/variables";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/logo";
+
+@import "./components/modal-btn";
+@import "./components/social-links";
+@import "./components/social-list";
+@import "./components/social-icons";
+@import "./components/title";
+@import "./components/section-heading";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/advantage";
+@import "./layout/about";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/filters";
+@import "./layout/projects";
