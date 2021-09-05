@@ -1,0 +1,36 @@
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  .about{
+  display: none;
+}
+}
+
+
+@media screen and (min-width: 1200px) {
+.about__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__item {
+  position: relative;
+  display: flex;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.about__item > .about__label {
+  position: absolute;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  padding: 30px;
+  bottom: 0;
+}
+}
